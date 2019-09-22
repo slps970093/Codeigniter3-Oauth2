@@ -1,0 +1,19 @@
+{
+  "name": "littlechou/cioauth2",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Yu-Hsien, Chou",
+      "email": "slps970093@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "LittleChou\\CiOauth2\\" : "cioauth/src"
+    }
+  },
+  "require": {
+    "bshaffer/oauth2-server-php": "^1.11",
+    "chriskacerguis/codeigniter-restserver" : "2.8"
+  }
+}
